@@ -1,2 +1,7 @@
-hello.firstName = John
-hello.lastName = Campbell
+hello:
+  firstName: John
+  lastName: Campbell
+
+
+server:
+  port: 8080
