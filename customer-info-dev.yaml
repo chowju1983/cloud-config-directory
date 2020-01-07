@@ -1,3 +1,18 @@
 practice:
    customer:
       greeting_message: Welcome Buddy
+      
+management:
+   endpoints:
+      web:
+         exposure:
+            include: "*"
+
+eureka:
+   client:
+      register:
+         with-eureka: false
+      fetch-registry: false
+      service-url:
+         defaultZone: http://localhost:8761/eureka
+
