@@ -1,6 +1,6 @@
 practice:
    customer:
-      greeting_message: Welcome Buddy DEV It is Again Folks
+      greeting_message: Welcome Buddy DEV It is Again
       
 management:
    endpoints:
