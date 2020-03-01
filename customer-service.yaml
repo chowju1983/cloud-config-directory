@@ -4,6 +4,14 @@ spring:
     port: 5672
     username: guest
     password: guest
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+  datasource:
+    username: sa
+    password: 
     
 server: 
   port: 8000
