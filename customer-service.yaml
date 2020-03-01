@@ -16,6 +16,11 @@ spring:
 server: 
   port: 8000
   
+welcome:
+  message:
+    WF: Welcome to Wells Fargo
+    BOA: Wlecome to BOA
+  
  
 
 eureka: 
