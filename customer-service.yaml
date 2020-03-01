@@ -19,7 +19,7 @@ server:
 welcome:
   message:
     WF: Welcome to Wells Fargo
-    BOA: Welcome to BOA
+    BOA: Welcome to Bank Of America
   
  
 
