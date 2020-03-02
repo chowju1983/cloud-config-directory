@@ -1,0 +1,35 @@
+spring: 
+  rabbitmq: 
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest  
+      
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9411/
+    
+server: 
+  port: 11000
+  
+welcome:
+  message:
+    WF: Welcome to Wells Fargo
+    BOA: Welcome to Bank Of America
+  
+ 
+
+eureka: 
+  client: 
+    fetch-registry: true
+    register-with-eureka: true
+    service-url: 
+      defaultZone: http://localhost:8761/eureka  
+
+
+
+management: 
+  endpoints:
+    web:
+      exposure:
+        include: '*'
